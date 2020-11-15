@@ -1,0 +1,11 @@
+C:\Users\Anastasia\Desktop\DevelopmentSystemTest\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\Anastasia\Desktop\DevelopmentSystemTest\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\Anastasia\Desktop\DevelopmentSystemTest\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+C:\Users\Anastasia\Desktop\DevelopmentSystemTest\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\Anastasia\Desktop\DevelopmentSystemTest\DataLayer\obj\Debug\DataLayer.pdb
+D:\Programs\DevelopmentSystemTest\DataLayer\bin\Debug\DataLayer.dll
+D:\Programs\DevelopmentSystemTest\DataLayer\bin\Debug\DataLayer.pdb
+D:\Programs\DevelopmentSystemTest\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\Programs\DevelopmentSystemTest\DataLayer\obj\Debug\DataLayer.dll
+D:\Programs\DevelopmentSystemTest\DataLayer\obj\Debug\DataLayer.pdb
+D:\Programs\DevelopmentSystemTest\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache

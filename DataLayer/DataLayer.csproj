@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9268A682-A059-47F0-B7B7-BEADFC6F07D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataLayer</RootNamespace>
+    <AssemblyName>DataLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Counter.cs" />
+    <Compile Include="Entities\Car\CarBase.cs" />
+    <Compile Include="Entities\Car\Color.cs" />
+    <Compile Include="Entities\Car\Make\AudiMake.cs" />
+    <Compile Include="Entities\Car\Make\BmwMake.cs" />
+    <Compile Include="Entities\Car\Make\ChevroletMake.cs" />
+    <Compile Include="Entities\Car\Make\MakeBase.cs" />
+    <Compile Include="Entities\Car\Make\Model\AudiModels\AudiA4.cs" />
+    <Compile Include="Entities\Car\Make\Model\AudiModels\AudiModelBase.cs" />
+    <Compile Include="Entities\Car\Make\Model\AudiModels\AudiQ3.cs" />
+    <Compile Include="Entities\Car\Make\Model\AudiModels\AudiRS5.cs" />
+    <Compile Include="Entities\Car\Make\Model\BmwModels\BmwI8.cs" />
+    <Compile Include="Entities\Car\Make\Model\BmwModels\BmwModelBase.cs" />
+    <Compile Include="Entities\Car\Make\Model\BmwModels\BmwX1.cs" />
+    <Compile Include="Entities\Car\Make\Model\BmwModels\BmxX5.cs" />
+    <Compile Include="Entities\Car\Make\Model\ChevroletModels\ChevroletAlero.cs" />
+    <Compile Include="Entities\Car\Make\Model\ChevroletModels\ChevroletBlazer.cs" />
+    <Compile Include="Entities\Car\Make\Model\ChevroletModels\ChevroletCamaro.cs" />
+    <Compile Include="Entities\Car\Make\Model\ChevroletModels\ChevroletModelBase.cs" />
+    <Compile Include="Entities\Car\Make\Model\ModelBase.cs" />
+    <Compile Include="Entities\Car\Make\Model\RenaultModels\RenaultAlaskan.cs" />
+    <Compile Include="Entities\Car\Make\Model\RenaultModels\RenaultDuster.cs" />
+    <Compile Include="Entities\Car\Make\Model\RenaultModels\RenaultFluence.cs" />
+    <Compile Include="Entities\Car\Make\Model\RenaultModels\RenaultModelBase.cs" />
+    <Compile Include="Entities\Car\Make\Model\SkodaModels\SkodaKaroq.cs" />
+    <Compile Include="Entities\Car\Make\Model\SkodaModels\SkodaKodiaq.cs" />
+    <Compile Include="Entities\Car\Make\Model\SkodaModels\SkodaModel.cs" />
+    <Compile Include="Entities\Car\Make\Model\SkodaModels\SkodaRapid.cs" />
+    <Compile Include="Entities\Car\Make\RenaultMake.cs" />
+    <Compile Include="Entities\Car\Make\SkodaMake.cs" />
+    <Compile Include="Entities\Car\State.cs" />
+    <Compile Include="Entities\City.cs" />
+    <Compile Include="Entities\Parking.cs" />
+    <Compile Include="EnumExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

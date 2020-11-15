@@ -1,0 +1,148 @@
+{
+  "$type": "Tools.FileSaver.JSON.ProjectInfoDto, Tools",
+  "Cars": {
+    "$type": "System.Collections.Generic.HashSet`1[[DateLayer.Entities.Car.CarBase, DataLayer]], System.Core",
+    "$values": [
+      {
+        "$type": "DateLayer.Entities.Car.CarBase, DataLayer",
+        "Number": "Р385УШ642",
+        "Make": {
+          "$type": "DateLayer.Entities.Car.Make.AudiMake, DataLayer",
+          "Title": "Audi"
+        },
+        "Model": {
+          "$type": "DateLayer.Entities.Car.Make.Model.AudiModels.AudiA4, DataLayer",
+          "Title": "Audi A4",
+          "MakeType": "DateLayer.Entities.Car.Make.AudiMake, DataLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Creation": "2019-12-10T00:00:00"
+        },
+        "Color": 0,
+        "State": 0
+      },
+      {
+        "$type": "DateLayer.Entities.Car.CarBase, DataLayer",
+        "Number": "С600ЩФ644",
+        "Make": {
+          "$type": "DateLayer.Entities.Car.Make.BmwMake, DataLayer",
+          "Title": "BMW"
+        },
+        "Model": {
+          "$type": "DateLayer.Entities.Car.Make.Model.BmwModels.BmxX5, DataLayer",
+          "Title": "X5",
+          "MakeType": "DateLayer.Entities.Car.Make.BmwMake, DataLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Creation": "2019-08-04T00:00:00"
+        },
+        "Color": 1,
+        "State": 0
+      },
+      {
+        "$type": "DateLayer.Entities.Car.CarBase, DataLayer",
+        "Number": "С995МП825",
+        "Make": {
+          "$type": "DateLayer.Entities.Car.Make.ChevroletMake, DataLayer",
+          "Title": "Chevrolet"
+        },
+        "Model": {
+          "$type": "DateLayer.Entities.Car.Make.Model.ChevroletModels.ChevroletCamaro, DataLayer",
+          "Title": "Camaro",
+          "MakeType": "DateLayer.Entities.Car.Make.ChevroletMake, DataLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Creation": "2018-03-10T00:00:00"
+        },
+        "Color": 2,
+        "State": 0
+      },
+      {
+        "$type": "DateLayer.Entities.Car.CarBase, DataLayer",
+        "Number": "У852ЖФ568",
+        "Make": {
+          "$type": "DateLayer.Entities.Car.Make.SkodaMake, DataLayer",
+          "Title": "Skoda"
+        },
+        "Model": {
+          "$type": "DateLayer.Entities.Car.Make.Model.SkodaModels.SkodaRapid, DataLayer",
+          "Title": "Rapid",
+          "MakeType": "DateLayer.Entities.Car.Make.SkodaMake, DataLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Creation": "2016-01-23T00:00:00"
+        },
+        "Color": 0,
+        "State": 0
+      },
+      {
+        "$type": "DateLayer.Entities.Car.CarBase, DataLayer",
+        "Number": "М546ПЕ28",
+        "Make": {
+          "$type": "DateLayer.Entities.Car.Make.ChevroletMake, DataLayer",
+          "Title": "Chevrolet"
+        },
+        "Model": {
+          "$type": "DateLayer.Entities.Car.Make.Model.ChevroletModels.ChevroletCamaro, DataLayer",
+          "Title": "Camaro",
+          "MakeType": "DateLayer.Entities.Car.Make.ChevroletMake, DataLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Creation": "2018-05-05T00:00:00"
+        },
+        "Color": 2,
+        "State": 0
+      },
+      {
+        "$type": "DateLayer.Entities.Car.CarBase, DataLayer",
+        "Number": "Е898ГД293",
+        "Make": {
+          "$type": "DateLayer.Entities.Car.Make.SkodaMake, DataLayer",
+          "Title": "Skoda"
+        },
+        "Model": {
+          "$type": "DateLayer.Entities.Car.Make.Model.SkodaModels.SkodaKaroq, DataLayer",
+          "Title": "Karoq",
+          "MakeType": "DateLayer.Entities.Car.Make.SkodaMake, DataLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Creation": "2015-03-09T00:00:00"
+        },
+        "Color": 2,
+        "State": 3
+      },
+      {
+        "$type": "DateLayer.Entities.Car.CarBase, DataLayer",
+        "Number": "Щ889ДЗ802",
+        "Make": {
+          "$type": "DateLayer.Entities.Car.Make.SkodaMake, DataLayer",
+          "Title": "Skoda"
+        },
+        "Model": {
+          "$type": "DateLayer.Entities.Car.Make.Model.SkodaModels.SkodaKodiaq, DataLayer",
+          "Title": "Kodiaq",
+          "MakeType": "DateLayer.Entities.Car.Make.SkodaMake, DataLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Creation": "2015-07-22T00:00:00"
+        },
+        "Color": 1,
+        "State": 0
+      }
+    ]
+  },
+  "ParkingCars": {
+    "$type": "System.Collections.Generic.HashSet`1[[DateLayer.Entities.Car.CarBase, DataLayer]], System.Core",
+    "$values": [
+      {
+        "$type": "DateLayer.Entities.Car.CarBase, DataLayer",
+        "Number": "Е898ГД293",
+        "Make": {
+          "$type": "DateLayer.Entities.Car.Make.SkodaMake, DataLayer",
+          "Title": "Skoda"
+        },
+        "Model": {
+          "$type": "DateLayer.Entities.Car.Make.Model.SkodaModels.SkodaKaroq, DataLayer",
+          "Title": "Karoq",
+          "MakeType": "DateLayer.Entities.Car.Make.SkodaMake, DataLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "Creation": "2015-03-09T00:00:00"
+        },
+        "Color": 2,
+        "State": 3
+      }
+    ]
+  },
+  "ParkingCapacity": 10,
+  "LookingParkingCars": 0,
+  "NewCarsPerMonth": 7,
+  "UtilizedCarsPerMonth": 2,
+  "NewCarChance": 0.7,
+  "CarsUtilizationChance": 0.5,
+  "CarsStatusChance": 0.4
+}
